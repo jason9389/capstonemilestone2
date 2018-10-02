@@ -1,0 +1,41 @@
+Capstone Milestone #2 
+
+Formulating your Problem Statement:
+Existing data regarding the usefulness of Myers Briggs Personality test is somewhat subjective.  I would like to use multi-classification models to verify whether there is a clear correlation between personality type and writing style/use of language.  
+Specific:
+What precisely do you plan to do?   I plan to use classification models to predict blog writers’ Myers Briggs personality (of 16 possible personalities).  
+
+What type of model will you need to develop?   A multi-classification model. Initially I will use a logistic regression model to simply try to predict which authors are introvert and which are extroverts. 
+
+Measurable:
+What metrics will you be using to assess performance?  The accuracy of the prediction by the test sample.
+
+Achievable:
+I spoke with Riley who advised that the project is achievable and complex enough to meet requirements.   If additional time is available I can always add additional data for further analysis.  
+
+Relevant:
+Does anyone care about this?  Yes, most college students have taken the Myers Briggs test, which can be a highly valuable tool in making one of the most important life decisions--what initial career path to take. Also, the field of Social Sciences has not conducted extensive research on the subject as primary emphasis is typically on societal/personal abnormalities, so there is a need for further understanding of the MB test which would fit in the small but growing social science emphasis on positive psychology.  Note that there has been recent criticism of the test’s effectiveness in classifying individuals despite its popularity.  This project can evaluate effectiveness of the test.  
+
+Why should people be interested in your results?  Conclusive results would help distinguish between what traits are innate and what traits are learned or present to environmental conditions they have been subjected to.  It would also help dispel faulty perceptions about some minority personality types being inferior as judged by the majority.  
+What value will the completion of your project be adding?  It could possibly help validate the need to normalize the study of personalities within Social Science disciplines.  
+
+Time-bound
+What's your deadline?  I hope to have model results complete for the analysis in the coming week.  
+
+Goal: Due to the subjective nature of the topic, my threshold for success is being set at a 75% confidence interval for prediction of personality type.  
+
+
+Data Guidelines
+
+Write functions to automatically clean and munge data as necessary.
+Take copious notes, for both others and yourself, describing your assumptions and approach.
+
+EDA Guidelines
+Think about the following as you perform your initial EDA.
+Identify the data types you are working with.  Objects--will use countvectorizer to convert all columns to number except the ‘type’ column.
+Examine the distributions of your data, numerically and/or visually.  The data I have is clean but I discovered that there is a large gap between the amount of data available for each personality type.  I may need to obtain more data in order to ensure that there is enough data to train and predict for each personality type.  
+
+Identify missing data and look for patterns of missing data.  There is no missing data.  
+Describe how your EDA will inform your modeling decisions and process:   The data I have is clean but I discovered that there is a large gap between the amount of data available for each personality type.  I may need to obtain more data in order to ensure that there is enough data to train and predict for each personality type.  
+Necessary Deliverables / Submission
+Materials must be presented in a Jupyter Notebook stored within a repository on your personal (not GA) GitHub. Please submit a link to this repository by the due date (submission link).
